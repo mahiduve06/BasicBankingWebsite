@@ -1,31 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jul 08, 2021 at 06:52 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `dbrohit`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `contactus`
---
 
 CREATE TABLE `contactus` (
   `sr` int(11) NOT NULL,
@@ -34,9 +11,7 @@ CREATE TABLE `contactus` (
   `message` mediumtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `contactus`
---
+
 
 INSERT INTO `contactus` (`sr`, `name`, `email`, `message`) VALUES
 (13, 'Rohit Mahajan', 'rohitm.official404@g', 'What is the python course fee?'),
